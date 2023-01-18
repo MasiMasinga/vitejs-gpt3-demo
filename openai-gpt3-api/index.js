@@ -61,6 +61,6 @@ app.post("/image", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log("Resolute GPT-3 . . .  Server");
+  console.log("GPT-3 Server");
   console.log(`🚀Server Started on PORT ${PORT}`);
 });
